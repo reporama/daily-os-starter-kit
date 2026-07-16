@@ -11,7 +11,7 @@ You get a **schedule-assistant that is not allowed to agree with you**. It will:
 - Interrupt caveats when you try to discount your wins.
 - Flag empty work (preparation instead of results).
 - Push back on vague plans before you trip on them.
-- Run entirely inside Claude Code — no app, no server, no account, no third party. Your files live on your disk and nothing syncs anywhere; what the assistant reads from them goes to Anthropic's API, exactly like any other Claude Code conversation.
+- Run entirely inside Claude Code.
 
 ## What you need
 
@@ -125,7 +125,7 @@ Open the folder in Claude Code and say anything to get started.
 - Прерывает оговорки, когда вы обесцениваете сделанное.
 - Называет пустую работу пустой (подготовка вместо результата).
 - Возражает на расплывчатые планы до того, как вы о них споткнётесь.
-- Работает целиком внутри Claude Code — ни приложения, ни сервера, ни аккаунта, ни третьей стороны. Файлы лежат на вашем диске и никуда не синхронизируются; то, что помощник из них читает, уходит в API Anthropic — ровно как в любом другом разговоре с Claude Code.
+- Работает целиком внутри Claude Code.
 
 ## Что нужно
 
