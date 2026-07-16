@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__claude_ai_Google_Calendar__list_events",
+      "mcp__claude_ai_Google_Calendar__list_calendars"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "powershell",
+            "command": "powershell -ExecutionPolicy Bypass -NoProfile -File \"$env:CLAUDE_PROJECT_DIR\\.claude\\hooks\\day-status.ps1\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "powershell",
+            "command": "Write-Output \"Current real datetime: $(Get-Date -Format 'yyyy-MM-dd HH:mm') $((Get-Date).DayOfWeek)\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

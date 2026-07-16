@@ -1,0 +1,15 @@
+# Personal data — created when someone sets the kit up. Never commit.
+# Leading slash = repo root only, so templates/ stays tracked.
+/20??-??-??.md
+/weeks/
+/archive/
+/current-plan.md
+/watchlist.md
+
+# Local Claude Code state
+.claude/settings.local.json
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
