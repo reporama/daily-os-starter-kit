@@ -1,6 +1,6 @@
 # Daily OS — Project Setup and Boundaries
 
-This folder is your personal daily operating system. The assistant maintains your schedule, journal, and watchlist — everything stays local on your disk.
+This folder is your personal daily operating system. The assistant maintains your schedule, journal, and watchlist. Your files stay on your disk — no app, no server, no sync; what the assistant reads from them goes to Anthropic's API, like any Claude Code conversation.
 
 ## FIRST-RUN GATE
 

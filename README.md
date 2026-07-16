@@ -11,14 +11,14 @@ You get a **schedule-assistant that is not allowed to agree with you**. It will:
 - Interrupt caveats when you try to discount your wins.
 - Flag empty work (preparation instead of results).
 - Push back on vague plans before you trip on them.
-- Run entirely in Claude Code — your data never leaves your disk.
+- Run entirely inside Claude Code — no app, no server, no account, no third party. Your files live on your disk and nothing syncs anywhere; what the assistant reads from them goes to Anthropic's API, exactly like any other Claude Code conversation.
 
 ## What you need
 
 - [Claude Code](https://claude.com/claude-code) (CLI, desktop app, or IDE extension).
 - This folder anywhere you like (e.g., `Documents/daily-os/`).
 - Windows: PowerShell (for the status hook). macOS/Linux: rewrite the two hooks in `settings.json` for your shell — don't just delete the file, it also carries the calendar permissions and the real-clock hook.
-- **Optional — Google Calendar.** If you connect it, the morning plan is built around your real meetings instead of on top of them. Connect it in Claude settings → Connectors → Google Calendar, or run `/mcp` in the Claude Code CLI and authorize `claude.ai Google Calendar`. Setup asks you about this and tests the connection; say no and the kit plans from your 2-week plan and watchlist only. Events are read, never written — nothing leaves your disk either way.
+- **Optional — Google Calendar.** If you connect it, the morning plan is built around your real meetings instead of on top of them. Connect it in Claude settings → Connectors → Google Calendar, or run `/mcp` in the Claude Code CLI and authorize `claude.ai Google Calendar`. Setup asks you about this and tests the connection; say no and the kit plans from your 2-week plan and watchlist only. Events are read, never written — nothing is ever sent to your calendar or anywhere else.
 
 ## Install (3 steps)
 
@@ -125,14 +125,14 @@ Open the folder in Claude Code and say anything to get started.
 - Прерывает оговорки, когда вы обесцениваете сделанное.
 - Называет пустую работу пустой (подготовка вместо результата).
 - Возражает на расплывчатые планы до того, как вы о них споткнётесь.
-- Работает целиком внутри Claude Code — данные не покидают ваш диск.
+- Работает целиком внутри Claude Code — ни приложения, ни сервера, ни аккаунта, ни третьей стороны. Файлы лежат на вашем диске и никуда не синхронизируются; то, что помощник из них читает, уходит в API Anthropic — ровно как в любом другом разговоре с Claude Code.
 
 ## Что нужно
 
 - [Claude Code](https://claude.com/claude-code) (CLI, десктоп-приложение или расширение для IDE).
 - Эта папка в любом удобном месте (например, `Documents/daily-os/`).
 - Windows: PowerShell (для хука статуса). macOS/Linux: перепишите два хука в `settings.json` под свою оболочку — не удаляйте файл целиком, в нём же лежат разрешения для календаря и хук реального времени.
-- **Опционально — Google Calendar.** Если подключить, утренний план строится вокруг ваших реальных встреч, а не поверх них. Подключение: настройки Claude → Connectors → Google Calendar, либо команда `/mcp` в Claude Code CLI и авторизация `claude.ai Google Calendar`. Setup спросит об этом и проверит связь; откажетесь — кит планирует только по 2-недельному плану и watchlist. События читаются, никогда не записываются — в обоих случаях наружу ничего не уходит.
+- **Опционально — Google Calendar.** Если подключить, утренний план строится вокруг ваших реальных встреч, а не поверх них. Подключение: настройки Claude → Connectors → Google Calendar, либо команда `/mcp` в Claude Code CLI и авторизация `claude.ai Google Calendar`. Setup спросит об этом и проверит связь; откажетесь — кит планирует только по 2-недельному плану и watchlist. События читаются, никогда не записываются — в календарь и куда-либо ещё не отправляется ничего.
 
 ## Установка (3 шага)
 
